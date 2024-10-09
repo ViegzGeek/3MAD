@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Affiliate Marketing Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>3MAD</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to the best affiliate marketing site for shoes, electronics, and beauty products. We review and recommend top-notch products to help you make informed decisions.</p>
+    </section>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="shoes.jpg" alt="Shoes">
+            <h3>Best Running Shoes</h3>
+            <p>Find the best running shoes of 2024 with our expert reviews.</p>
+        </div>
+        <div class="product">
+            <img src="laptop.jpg" alt="Laptop">
+            <h3>Top Electronics</h3>
+            <p>Our recommendations for the latest and greatest in tech gadgets.</p>
+        </div>
+        <div class="product">
+            <img src="makeup.jpg" alt="Beauty Products">
+            <h3>Beauty Essentials</h3>
+            <p>Discover skincare and makeup products that suit your style.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-response"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
